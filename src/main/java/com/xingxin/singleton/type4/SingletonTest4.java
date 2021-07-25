@@ -33,4 +33,13 @@ class Singleton {
         }
         return instance;
     }
+    // 还有一种写法是synchronized修饰代码块，实际上是第5种实现方式，并不能保证线程安全因此没写，
+//    public static  Singleton getInstance() {
+//        if (instance == null) {
+//            synchronized (Singleton.class) {
+//                instance = new Singleton();
+//            }
+//        }
+//        return instance;
+//    }
 }
