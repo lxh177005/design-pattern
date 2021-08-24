@@ -10,6 +10,8 @@
         <module>behavioral-strategy</module>
         <module>creation-singleton</module>
         <module>abc-principle</module>
+        <module>behavioral-handler</module>
+        <module>creation-factory</module>
     </modules>
     <name>design-pattern</name>
     <description>Demo project for Spring Boot</description>

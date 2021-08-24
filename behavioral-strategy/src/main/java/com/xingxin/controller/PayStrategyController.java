@@ -27,7 +27,7 @@ public class PayStrategyController {
         if (paymentChannel == null || StringUtils.isBlank(paymentChannel.getStrategyBeanId())) {
             return "数据库缺少支付渠道配置";
         }
-        PayStrategy payStrategy = (PayStrategy) SpringUtils.getBean(paymentChannel.getStrategyBeanId());
+        PayStrategy payStrategy = SpringUtils.getBean(paymentChannel.getStrategyBeanId(), PayStrategy.class);
         return payStrategy.toPayHtml();
     }
 }
