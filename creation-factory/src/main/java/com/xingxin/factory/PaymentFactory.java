@@ -1,8 +1,8 @@
-package com.xingxin.service.factory;
+package com.xingxin.factory;
 
 import com.xingxin.service.PaymentService;
-import com.xingxin.service.enums.PaymentEnum;
-import com.xingxin.service.utils.SpringUtils;
+import com.xingxin.enums.PaymentEnum;
+import com.xingxin.utils.SpringUtils;
 
 /**
  * @author liuxh

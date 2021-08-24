@@ -1,6 +1,6 @@
-import com.xingxin.service.FactoryApplication;
+import com.xingxin.FactoryApplication;
 import com.xingxin.service.PaymentService;
-import com.xingxin.service.factory.PaymentFactory;
+import com.xingxin.factory.PaymentFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

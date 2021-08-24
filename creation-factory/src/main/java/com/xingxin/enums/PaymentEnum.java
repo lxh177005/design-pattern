@@ -1,4 +1,4 @@
-package com.xingxin.service.enums;
+package com.xingxin.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

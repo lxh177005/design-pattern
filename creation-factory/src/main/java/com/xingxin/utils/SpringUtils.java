@@ -1,4 +1,4 @@
-package com.xingxin.service.utils;
+package com.xingxin.utils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

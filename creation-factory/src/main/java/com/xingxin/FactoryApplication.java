@@ -1,5 +1,6 @@
-package com.xingxin.service;
+package com.xingxin;
 
+import org.springframework.beans.factory.BeanFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,5 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FactoryApplication {
     public static void main(String[] args) {
         SpringApplication.run(FactoryApplication.class);
+        // 源码分析
+       // BeanFactory
     }
 }
