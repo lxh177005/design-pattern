@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>abc-principle</artifactId>
+    <artifactId>design-principle</artifactId>
+    <description>设计模式七大原则</description>
 
 
 </project>
