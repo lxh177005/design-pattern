@@ -1,5 +1,5 @@
 server:
-  port: 9002
+  port: 9001
 
 spring:
   application:
@@ -16,5 +16,7 @@ mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
+#logging:
+#  config: classpath:log4j2.xml
 
 
