@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>creation-singleton</artifactId>
+    <artifactId>handler</artifactId>
+    <description>责任链模式</description>
 
 
 </project>

@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>creation-factory</artifactId>
-    <description>工厂模式</description>
+    <artifactId>strategy</artifactId>
+    <description>策略模式</description>
 
 
 </project>
