@@ -16,12 +16,12 @@ public class JvmMapCacheUtils {
 
     public static Map<String, String> caches = new ConcurrentHashMap<>();
 
-    public <T> T getEntity(String key, Class<T> t) {
+    public static <T> T getEntity(String key, Class<T> t) {
         String json = caches.get(key);
         return JSONObject.parseObject(json, t);
     }
 
-    public void putEntity(String key, Object o) {
+    public static void putEntity(String key, Object o) {
         String json = JSON.toJSONString(o);
         caches.put(key, json);
     }
