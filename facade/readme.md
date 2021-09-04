@@ -5,7 +5,7 @@
 	优点：解耦，简单易用
 	缺点：业务封装的增加
 ## 流程图
-![img_1.png](img_2.png)
+![img_1.png](img/img_2.png)
 
 ## 示例
 	@Component
