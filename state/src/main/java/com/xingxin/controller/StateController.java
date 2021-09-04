@@ -24,6 +24,7 @@ public class StateController {
         stateContext.switchStateOrder();
 
         log.info("====================");
+        // 个人看法：获取到bean之后，直接执行方法也是可以的，不过这样就是策略模式的写法了
         orderState.orderService();
         // 如果写多重if判断，整个代码流程耗时长，直接spring中定位到策略或者状态的话 map的get获取 效率高
         return "success";
