@@ -16,6 +16,7 @@
         <module>decorator</module>
         <module>observer</module>
         <module>facade</module>
+        <module>state</module>
     </modules>
     <name>design-pattern</name>
     <description>二十三种设计模式</description>
