@@ -6,7 +6,7 @@ import java.lang.reflect.InvocationTargetException;
 
 /**
  * 单例模式八：枚举实现
- * 优点：jdk1.5枚举，不仅能避免多线程的同步问题，还能防止反序列化创建新的对象
+ * 优点：枚举，不仅能避免多线程的同步问题，还能防止反序列化创建新的对象
  * 总结：强烈推荐使用
  * @author liuxh
  * @date 2021/7/25
@@ -40,6 +40,13 @@ public class SingletonTest8 {
         Singleton singleton3 = (Singleton) ois.readObject();
         System.out.println(singleton3==instance);
 
+        // java反射技术 有参构造函数
+//        Class<?> classInfo  = Class.forName("com.xingxin.singleton.type8.Singleton");
+        Class<Singleton> singletonClass = Singleton.class;
+        Constructor<?> declaredConstructor = singletonClass.getDeclaredConstructor(String.class, int.class);
+        declaredConstructor.setAccessible(true);
+        Singleton newInstance =(Singleton) declaredConstructor.newInstance("ENUM_TEST", 1);
+        System.out.println(instance == newInstance);
 
     }
 }
